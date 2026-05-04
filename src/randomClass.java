@@ -7,7 +7,7 @@ public class randomClass {
 
         int num1;
         double num2;
-        boolean ishead;
+        boolean isHead;
 
         num1 = random.nextInt(1, 7);//second number is exclusive.
         System.out.println(num1);
@@ -15,9 +15,9 @@ public class randomClass {
         num2 = random.nextDouble();
         System.out.println(num2);
 
-        ishead = random.nextBoolean();
+        isHead = random.nextBoolean();
 
-        if (ishead)
+        if (isHead)
             System.out.println("it is head");
 
         else {
