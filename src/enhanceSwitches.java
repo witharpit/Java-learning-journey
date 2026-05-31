@@ -29,7 +29,7 @@ public class enhanceSwitches {
                 case "saturday","sunday" ->
                         System.out.println("it is the weekend");
 
-                default -> System.out.println("it is not a day");
+                default -> System.out.println("it is not any day.");
 
 
         }
